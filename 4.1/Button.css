@@ -1,0 +1,11 @@
+.important{
+    width: 40vw;
+    height: 10vh;
+
+}
+.notImportant{
+    width: 40vw;
+    height: 10vh;
+    font-style: oblique;
+
+}
