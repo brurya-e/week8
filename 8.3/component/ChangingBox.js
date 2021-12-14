@@ -1,11 +1,10 @@
 import "./ChangingBox.css"
 import React from "react";
 
-const colorArray = ['red', 'green', 'blue', 'orange']
+const colorArray = ['red', 'green', 'blue', 'orange','purple','pink','yellow','brown']
 
 const getColor = () => {
-    return colorArray[Math.floor(Math.random() * colorArray.length)];
-
+    return colorArray[Math.floor(Math.random() * colorArray.length)];     
 }
 // const changeShape = () => {
 //     if (this.state.shape == 'circle')
@@ -17,14 +16,14 @@ const getColor = () => {
 class ChangingBox extends React.Component {
 
     state = {
-        class: '',
+        color: '',
         count: 0,
         shape: 'box'
     }
 
     componentDidMount() {
         setInterval(() => {
-            this.setState((prev) => ({ class: getColor(), count: prev.count + 1 }));
+            this.setState((prev) => ({ color: getColor(), count: prev.count + 1 }));
 
             if (this.state.count === 5) {
                 // changeShape();
@@ -41,7 +40,7 @@ class ChangingBox extends React.Component {
 
     render() {
         return (
-            <div className={`${this.state.shape} ${this.state.class}`} >
+            <div className={`${this.state.shape} ${this.state.color}`} >
             </div>
         );
     }

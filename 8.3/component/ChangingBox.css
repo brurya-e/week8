@@ -1,8 +1,12 @@
 .box{
+    margin-top: 50px;
+    margin-left: 50px;
     width: 100px;
     height: 100px;
 }
 .circle{
+    margin-top: 50px;
+    margin-left: 50px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -16,9 +20,19 @@
   }
   .blue {
     background: blue;
-    color: white;
   }
   .orange {
     background: orange;
-    color: white;
+  }
+  .pink {
+    background: pink;
+  }
+  .purple {
+    background: purple;
+  }
+  .yellow {
+    background: yellow;
+  }
+  .brown {
+    background: brown;
   }
