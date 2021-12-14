@@ -1,0 +1,11 @@
+.box{
+    width: 50vw;
+    height: 20vh;
+    background-color: blue;
+    transform: translateX(-100%);
+    animation: move 4s forwards ease-in ;
+}
+
+@keyframes move {
+    100% { transform: translateX(100vw); }
+}
