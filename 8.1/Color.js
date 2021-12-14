@@ -19,7 +19,7 @@ class Color extends React.Component {
     render(){
             return(
         <>
-        <h1>my fevorite color is  {this.state.favoritColor}</h1>
+        <h1 style={{backgroundColor: this.state.favoritColor}}>my fevorite color is  {this.state.favoritColor}</h1>
         </>
     )
     }
