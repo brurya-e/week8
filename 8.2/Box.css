@@ -1,11 +1,28 @@
 .box{
-    width: 50vw;
-    height: 20vh;
-    background-color: blue;
+    /* background-color: blue; */
+    margin-bottom: 2vh;
     transform: translateX(-100%);
     animation: move 4s forwards ease-in ;
 }
 
 @keyframes move {
     100% { transform: translateX(100vw); }
+}
+.green {
+    background: green;
+  }
+  .red {
+    background: red;
+  }
+  .blue {
+    background: blue;
+    color: white;
+  }
+  .orange {
+    background: orange;
+    color: white;
+  }
+  .hide{
+      visibility: hidden;
+    
 }
