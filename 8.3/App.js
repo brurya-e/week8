@@ -1,10 +1,15 @@
+import React from "react";
 import ChangingBox from "./component/ChangingBox";
 
-export default function App() {
+class App extends React.Component {
 
-    return (
-        <div>
-            <ChangingBox />;
-        </div>
-    );
+
+    render() {
+        return (
+            <div>
+                <ChangingBox />;
+            </div>
+        );
+    }
 }
+export default App

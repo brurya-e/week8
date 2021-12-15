@@ -1,38 +1,46 @@
-.box{
+.box {
     margin-top: 50px;
     margin-left: 50px;
     width: 100px;
     height: 100px;
 }
-.circle{
+
+.circle {
     margin-top: 50px;
     margin-left: 50px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
-
 }
+
 .green {
     background: green;
-  }
-  .red {
+}
+
+.red {
     background: red;
-  }
-  .blue {
+}
+
+.blue {
     background: blue;
-  }
-  .orange {
+}
+
+.orange {
     background: orange;
-  }
-  .pink {
+}
+
+.pink {
     background: pink;
-  }
-  .purple {
+}
+
+.purple {
     background: purple;
-  }
-  .yellow {
+}
+
+.yellow {
     background: yellow;
-  }
-  .brown {
+}
+
+.brown {
     background: brown;
-  }
+}

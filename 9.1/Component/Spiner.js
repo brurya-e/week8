@@ -1,19 +1,8 @@
-import "./ChangingBox.css"
+import "./Spiner.css"
 import React from "react";
 
-const colorArray = ['red', 'green', 'blue', 'orange','purple','pink','yellow','brown']
 
-const getColor = () => {
-    return  colorArray[Math.floor(Math.random() * colorArray.length)];
-}
-// const changeShape = () => {
-//     if (this.state.shape == 'circle')
-//         this.setState({ shape: 'box' });
-//     else
-//         this.setState({ shape: 'circle' });
-// }
-
-class ChangingBox extends React.Component {
+class Spiner extends React.Component {
 
     state = {
         color: '',
@@ -46,4 +35,4 @@ class ChangingBox extends React.Component {
     }
 
 }
-export default ChangingBox
+export default Spiner
