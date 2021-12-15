@@ -9,7 +9,7 @@ const InputText = ({ name, input, text, callBack }) => {
                 type={"text"}
                 name={name}
                 value={input || ""}
-                onChange={(e) => callBack(e.target.value)}
+                onChange={(e) => callBack(name, e.target.value)}
             />
 
         </div >

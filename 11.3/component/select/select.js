@@ -1,13 +1,18 @@
 import "./select.css"
 import React from "react";
 
-const Select = ({ value ,value1 ='0-15',value2= '16-25',value3 ='25-40',value4='40-99', text='age', callBack }) => {
+const Select = ({ value , callBack }) => {
+    let value1 ='0-15';
+    let value2= '16-25';
+    let value3 ='25-40';
+    let value4='40-99';
+    let text='age';
     return (
         <label>
             {text}:
             <select 
             value={value}
-            onChange={(e) => callBack(e.target.value)}
+            onChange={(e) => callBack(text, e.target.value)}
             >
                 <option value={value1}> {value1} </option>
                 <option value={value2}> {value2} </option>
